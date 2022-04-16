@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="shortcut icon" href="https://imgs.search.brave.com/UrfnK_23Wid7Kh44D3me1zCgEV-eFdprQe7h0iAVWGc/rs:fit:1000:1000:1/g:ce/aHR0cHM6Ly93d3cu/b2ZpeC5wbC91cGxv/YWQvaW1nL1Byb2R1/Y3RQaG90b3MvMTAw/MzM2OTIvMTAwMzM2/OTJfbWFpbi5qcGc">
+        <title>Kalkulator internetowy</title>
+        <link rel="stylesheet" href="style.css"/>
+        
+    </head>
+    <body>
+        
+    <h1 >Witaj w kalkulatorze internetowym użytkowniku!</h1>
+    pierwsza_liczba : <input type="number" id="first_num"><br>
+    druga_liczba : <input type="number" id="second_num"><br>
+        <p>
+
+        </p>
+        <button id="dodawanie" onclick="oblicz('+')">Dodaj</button>
+        <button id="odejmowanie" onclick="oblicz('-')">Odejmij</button>
+        <button id="mnozenie" onclick="oblicz('*')">Pomnóż</button>
+        <button id="dzielenie" onclick="oblicz('/')">Podziel</button>
+        <br></body>
+        <div>
+            <p>Wynik tego działania to:</p>
+            <p id="wynik"></p>
+        </div>
+    
+        <script src="skrypt.js"></script>    
+    </body>
+</html>
